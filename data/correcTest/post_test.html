@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container" style='text-align: center'>
+            <div class ="header__inner">
+                <nav class="nav">
+                    <a class="nav__link__dop" href="index.html">Home</a>
+                    <a class="nav__link__dop" href="img_page.html">Test Image</a>
+                    <a class="nav__link__dop" href="../../cgi-bin/get_test.py?first_name=Web&last_name=Server">CGI GET</a>
+                    <a class="nav__link__dop" href="post_test.html">CGI POST</a>
+                    <a class="nav__link__dop" href="../../cgi-bin/upload.php">File Upload</a>
+                    <a class="nav__link__dop" href="../../cgi-bin/infinite_loop.py">Infinite Loop CGI</a>
+                    <a class="nav__link__dop" href="/pouetka">HTTP redirection</a>     
+                    <a class="nav__link__dop" href="/listing">Directory listing</a>                              
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <form action = "/cgi-bin/post_test.py" method = "post">
+        First Name: <input type = "text" name = "first_name"><br />
+        Last Name: <input type = "text" name = "last_name" />
+                    <input type = "submit" value = "Submit" />
+    </form>
+
+<body>
+</html>
