@@ -1,11 +1,6 @@
 # webserv
 
-Test hostname:
-curl -H "Host: www.default.com" http://localhost:8080/
-
-Test pending request:
-curl -X POST -H "Content-Length: 40" --data "first_name=ad&last_name=carnec" localhost:
-8080
+This is a project developed at Ecole 42. This project aims implementing a simple web server based on HTTP/1.1 protocol. It implements Get, Post and Delete methods. So it can serve static web pages, dynamic pages thanks to customizable CGI (PHP, python...). It is fully configurable though a config file, inspired by Nginx format.
 
 Ressources:
 
