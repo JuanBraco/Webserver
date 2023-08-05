@@ -1,4 +1,4 @@
-# webserv
+# Webserv
 
 This is a project developed at Ecole 42. This project aims implementing a simple web server based on HTTP/1.1 protocol. It implements Get, Post and Delete methods. So it can serve static web pages, dynamic pages thanks to customizable CGI (PHP, python...). It is fully configurable though a config file, inspired by Nginx format.
 
